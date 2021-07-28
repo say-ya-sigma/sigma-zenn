@@ -3,7 +3,7 @@ title: "スマホでコード書く CI編"
 emoji: "👻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
-published: false
+published: true
 ---
 
 最初にCI/CDを敷こうと思います。空いた時間を使って開発をする際に開発が滞ることは避けたいです。テストを書いて、滞りのない開発を実現します。
