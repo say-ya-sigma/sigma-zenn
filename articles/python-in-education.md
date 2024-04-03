@@ -44,7 +44,9 @@ user2 = User('sigma', 'sigma@mail.com')
 print(user == user2) # True
 ```
 
-frozenによりデータがイミュータブルであることを保証しています。__repr__が設定されprint()時の表現が得られたり__eq__が設定されたりします。
+frozenによりデータがイミュータブル(*)であることを保証しています。__repr__が設定されprint()時の表現が得られたり__eq__が設定されたりします。
+
+> \* Pythonのclassに真の意味でのイミュータブルはないため、この表現は正確ではないですが、上書きを制限することの意義というようなことを説明する際に他に適当な語がないためこの語を使っています。
 
 [https://docs.python.org/3/library/dataclasses.html](https://docs.python.org/3/library/dataclasses.html)
 
