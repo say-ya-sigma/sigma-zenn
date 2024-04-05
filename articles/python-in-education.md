@@ -105,7 +105,7 @@ user.id = 2 # pydantic_core._pydantic_core.ValidationError: 1 validation error f
 
 # ABCとDI
 
-PythonにはABCという冗談みたいな名前のパッケージがあります。Abstract meta classの略のようで抽象クラスを書くためのパッケージです。dataclassで表現するのが適切でないようなクラスにはこれを使います。
+PythonにはABCという冗談みたいな名前のパッケージがあります。Abstract Base Classessの略のようで抽象クラスを書くためのパッケージです。dataclassで表現するのが適切でないようなクラスにはこれを使います。
 
 [https://docs.python.org/ja/3/library/abc.html](https://docs.python.org/ja/3/library/abc.html)
 
